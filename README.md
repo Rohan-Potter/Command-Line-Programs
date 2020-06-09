@@ -1,2 +1,2 @@
 # Fun
-Small Python Projrcts
+Small Python Projects
