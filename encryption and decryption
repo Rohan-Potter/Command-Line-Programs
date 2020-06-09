@@ -1,0 +1,30 @@
+############################## Code for Encryption#####################################
+from random import randint
+a=randint(1,20)
+print(a)
+# str1=input("enter the string :")
+def ency(str1):
+    print(str1)
+    e=""
+    for i in range(0,len(str1)):
+        c=0
+        b=ord(str1[i])
+        c=b+a
+        e=e+chr(c)
+    f=e+chr(a+32)
+    print(f)
+    return f
+    
+    ################################### Code For decryption ########################################
+    
+    
+def decy(str1):
+    f=ord(str1[-1])
+    a=f-32
+    e=""
+    for i in range(0,len(str1)-1):
+        c=0
+        b=ord(str1[i])
+        c=b-a
+        e=e+chr(c)
+    print(e)
