@@ -9,8 +9,8 @@ from tkinter import messagebox as m_box
 my_db=mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Rs20111998",
-    database="library"
+    password="********", ## password for mysql login
+    database="library" ## database name
 )
 cur=my_db.cursor()
 ## Application Window
