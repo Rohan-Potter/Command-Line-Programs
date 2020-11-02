@@ -10,8 +10,8 @@ import mysql.connector
 my_db=mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Rs20111998",
-    database="login"
+    password="*******",  ## Your Mysql password
+    database="login"   ## Database name
 )
 win=tk.Tk()
 win.geometry("1200x1920")
